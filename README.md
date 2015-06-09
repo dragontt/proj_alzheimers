@@ -4,7 +4,12 @@ This project serves as an automated parallelized solution for cerebral vascular 
 
 ### Vascular Extraction
 
-- 
+- Performs a series of image preprocessing steps including: background substraction, object smoothing, hold filling, adaptive thresholding, and object denosing;
+- Computes distance transform of the foreground object, served as the speed image;
+- Propogates the center axis tracing based on the neighbor's speed value, and forms a front of propogation;
+- Iterates such propogation at the current front while freezes the visited voxels;
+- Stops the propogation once reaches low speed voxel;
+- Outputs vessel segments containing the linepath of traced vessel axis in image stack volume and its connection to branch node; and outputs branch/end node containing the location and its connectvity to segment
 
 ### Vascular Analysis
 
