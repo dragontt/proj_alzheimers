@@ -1,0 +1,22 @@
+TRACING DATA VISUALIZATION - Schaffer-Nishimura Lab 04/15/2014
+
+—————————————————
+
+GOTracer 
+
+- The mac os application for visualizing the tracing data. Not installation required. This is the program to fast rendering tracing in 2d.
+
+- Inputs are traced data file (.gotracer) and image stack file (if “Image File not Found!” shown, click “yes” and choose the corresponding image stack). 
+
+- Go to “Tools” in menu bar and click “Show Fade Control”, then change value of “Cutoff graphics beyond this z distance” to any number smaller 20 (for the sake of fast data rendering). 
+
+- The bottom scroll bar of the display panel allows user to change visual depth in z direction of the image stack.
+
+—————————————————
+
+matlab (optional) 
+
+- Use Matlab script main_mat2gotracer to convert .mat file to .gotracer file. The import .mat file requires to include var SS (traced data) and im (image data). This folder also includes a folder of sample data, which contains all data formats: gotracer, mat, plist, and tif. 
+
+
+Please contact Yiming Kang (yk588@cornell.edu) for further questions.  

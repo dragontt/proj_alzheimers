@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Communicating Arteriole</key>
+	<string>redColor</string>
+	<key>Communicating Venule</key>
+	<string>blueColor</string>
+	<key>Communicating Capillary</key>
+	<string>yellowColor</string>
+	<key>Edge Arteriole</key>
+	<string>redColor</string>
+	<key>Edge Venule</key>
+	<string>blueColor</string>
+	<key>Edge Capillary</key>
+	<string>yellowColor</string>
+	<key>Surface Arteriole</key>
+	<string>redColor</string>
+	<key>Penetrating Arteriole</key>
+	<string>redColor</string>
+	<key>Capillary</key>
+	<string>yellowColor</string>
+	<key>Ascending Venule</key>
+	<string>blueColor</string>
+	<key>Surface Venule</key>
+	<string>blueColor</string>
+	<key>Stalled</key>
+	<string>brownColor</string>
+</dict>
+</plist>
